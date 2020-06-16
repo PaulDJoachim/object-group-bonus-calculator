@@ -116,7 +116,6 @@ function bonusCalculator(oldArray) {
       newArray[i].bonusPercentage = 0;
     }
     newArray[i].totalBonus = parseInt(oldArray[i].annualSalary * newArray[i].bonusPercentage);
-    newArray[i].totalCompensation = Number(oldArray[i].annualSalary) + Number(newArray[i].totalBonus);
   }
 }
 
