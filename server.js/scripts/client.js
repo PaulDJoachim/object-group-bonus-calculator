@@ -124,5 +124,5 @@ function bonusCalculator(oldArray) {
 bonusCalculator(employees)
 
 
-// console.log( employees );
+console.log( employees );
 console.log( newArray );
